@@ -124,10 +124,10 @@
 
 count = 0
 
-if count:
-    print(f"У меня есть деньги! {count}$")
-else:
-    print("У меня нет денег :(")
+# if count:
+#     print(f"У меня есть деньги! {count}$")
+# else:
+#     print("У меня нет денег :(")
 
 # string1 = "Hello"
 # string2 = "hello"
@@ -136,13 +136,21 @@ else:
 
 # print("abca" in "123123abc")
 
-# string = "Hello       "
+# string = "Hello"
+# num = len(string)
+#
+# print(num)
+
+# string = "Hello"
 #
 # print(len(string) < 10)
 
 # range(5) # (0, 1, 2, 3, 4)
 
 # for i in range(5): # (0, 1, 2, 3, 4)
+#     print(i)
+#
+# for i in range(5):  # (0, 1, 2, 3, 4)
 #     print(i)
 
 # for c in "Hello":
@@ -166,18 +174,18 @@ else:
 # for c in "Hello":
 #     print(c)
 
-# string = "Hello world!"
-# n = 0
-#
-# for c in string:
-#     print(f"Проверяю букву {c}")
-#     if c == "l":
-#         print("Есть!")
-#         n += 1
-#     else:
-#         print("Это не буква l")
-#
-# print(n)
+string = "Hello world!"
+n = 3
+
+for c in string:
+    print(f"Проверяю букву {c}")
+    if c == "l":
+        print("Есть!")
+        n += 1
+    else:
+        print("Это не буква l")
+
+print(n)
 #
 # n = 0
 #
